@@ -1,4 +1,4 @@
-const BASE = '/api/expenses';
+const BASE = 'https://expense-tracker-api-9xvp.onrender.com/api/expenses';
 
 async function handleResponse(res) {
   const data = await res.json();
